@@ -2,3 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: 'KBH-Demibold';
+        src: url('../public/fonts/KBH-Demibold.otf');
+
+    }
+
+    @font-face {
+        font-family: 'KBH-Medium';
+
+        src: url('../public/fonts/KBH-Medium.otf');
+
+    }
+
+    @font-face {
+        font-family: 'KBH-Regular';
+
+        src: url('../public/fonts/KBH-Regular.otf');
+    }
+
+    @font-face {
+        font-family: 'KBH-Italic';
+
+        src: url('../public/fonts/KBH-Italic.otf');
+    }
+}
